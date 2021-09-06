@@ -1,0 +1,1 @@
+Exercício de GraphQL feito durante o curso da gama academy

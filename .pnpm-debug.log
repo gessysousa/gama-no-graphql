@@ -1,0 +1,47 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "@dev_demands/root",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "author": "",
+      "license": "MIT"
+    },
+    "prefix": "D:\\GIT\\gama-no-graphQL\\client-server-example"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "D:\\.pnpm-store\\v3",
+    "virtualStoreDir": "D:\\GIT\\gama-no-graphQL\\client-server-example\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "D:\\GIT\\gama-no-graphQL\\client-server-example",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "@dev-demands/web is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/@dev-demands%2Fweb"
+    },
+    "response": {
+      "size": 0,
+      "timeout": 60000
+    },
+    "pkgName": "@dev-demands/web",
+    "pkgsStack": [],
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/@dev-demands%2Fweb: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "Error: GET https://registry.npmjs.org/@dev-demands%2Fweb: Not Found - 404\n    at RetryOperation._fn (C:\\Users\\GessySousa\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:86260:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+    }
+  }
+}
